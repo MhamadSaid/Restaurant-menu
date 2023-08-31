@@ -13,7 +13,7 @@ function Home() {
       <div className="headerContainer">
         <div>
           <h1> Pizza Joy </h1>
-          <p> PIZZA TO FIT ANY TASTE</p>
+          <p>Pizzas to Delight Every Palate</p>
           <Link to="/menu">
             <button> ORDER NOW </button>
           </Link>
