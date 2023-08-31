@@ -22,14 +22,14 @@
   font-size: 90px;
   height: 60px;
   font-weight: 50;
-  color: #8b4513;
+  color: #d4af37;
 }
 
 .headerContainer p {
   padding: 0;
   font-size: 40px;
   font-weight: lighter;
-  color: #8b4513;
+  color: #d4af37;
 }
 
 .headerContainer button {
@@ -37,7 +37,7 @@
   border-radius: 5px;
   cursor: pointer;
   justify-content: center;
-  background-color: #8b4513;
+  background-color: #d4af37;
   height: 50px;
   width: 180px;
   color: white;
@@ -46,7 +46,7 @@
 }
 
 .headerContainer button:hover {
-  background-color: #5c2e0e;
+  background-color: #ad870b;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
