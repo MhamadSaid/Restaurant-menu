@@ -1,7 +1,8 @@
 .about-section {
-  background-color: #d4af37;
+  background-color: #fbdd58;
   color: #ffffff;
   margin-top: -100px;
+  height: 100%;
 }
 .about {
   width: 100%;
@@ -11,14 +12,12 @@
 }
 .aboutLeft {
   width: 50%;
-  margin-top: 150px;
   margin-left: 30px;
 }
 .aboutRight {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-top: 50px;
   margin-left: 30px;
   height: 50%;
   align-items: center;
@@ -27,9 +26,9 @@
 .about-section h1 {
   display: flex;
   font-weight: 500;
+  text-align: center;
   font-size: 70px;
-  margin-top: 100px;
-  color: #8b4513;
+  color: #a52a2a;
   margin-left: 500px;
   transform: translateY(-40px);
 }
@@ -45,5 +44,4 @@
 .about-section img {
   width: 650px;
   height: 470px;
-  margin-top: -130px;
 }
