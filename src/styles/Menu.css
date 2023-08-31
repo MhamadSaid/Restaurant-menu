@@ -1,5 +1,5 @@
 .menu {
-  background-color: #d4af37;
+  background-color: #fbdd58;
   width: 100%;
   height: auto;
   display: flex;
@@ -47,11 +47,11 @@
 }
 
 .menuTitle {
-  color: #8b4513;
+  color: #a52a2a;
 }
 
 .menuItem h1 {
-  color: #8b4513;
+  color: #a52a2a;
 }
 .menuItem p {
   margin-left: 20px;
