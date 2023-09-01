@@ -8,7 +8,6 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  color: #ffffff;
   justify-content: center;
 }
 
@@ -39,10 +38,10 @@
 .about-section p {
   font-size: 25px;
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .about-section img {
   width: 650px;
-  height: 470px;
+  height: 410px;
 }
