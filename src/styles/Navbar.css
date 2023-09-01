@@ -8,6 +8,7 @@
   height: 70px;
   z-index: 10;
   border-bottom: 2px solid #882323;
+  top: 0;
 }
 
 .navbar .leftSide {
