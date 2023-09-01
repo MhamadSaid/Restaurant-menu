@@ -7,15 +7,12 @@
   width: 100%;
   height: 70px;
   z-index: 10;
-  border-bottom: 2px solid #882323;
   top: 0;
 }
 
 .navbar .leftSide {
-  flex: 50%;
-  height: 100%;
   display: flex;
-  align-items: center;
+  flex: 50%;
   padding-left: 150px;
 }
 
@@ -24,9 +21,9 @@
 }
 
 .navbar .rightSide {
+  display: flex;
   flex: 50%;
   height: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 20px;
@@ -48,19 +45,11 @@
   cursor: pointer;
 }
 
-.navbar .rightSide svg {
-  font-size: 40px;
-}
-
 .navbar #open {
   padding-left: 0px;
 }
 .navbar #open img {
   display: none;
-}
-
-.navbar #close img {
-  display: inherit;
 }
 
 .navbar #open .hiddenLinks {
