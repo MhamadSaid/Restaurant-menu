@@ -17,34 +17,18 @@ function Navbar() {
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <img src={Logo} alt="Logo" />
         <div className="hiddenLinks">
-          <Link to="home" smooth={true}>
-            Home
-          </Link>
-          <Link to="about" smooth={true}>
-            About
-          </Link>
-          <Link to="menu" smooth={true}>
-            Menu
-          </Link>
-          <Link to="contact" smooth={true}>
-            Contact
-          </Link>
+          <Link to="home">Home</Link>
+          <Link to="about">About</Link>
+          <Link to="menu">Menu</Link>
+          <Link to="contact">Contact</Link>
         </div>
       </div>
       <div className="rightSide">
         <div>
-          <Link to="home" smooth={true}>
-            Home
-          </Link>
-          <Link to="about" smooth={true}>
-            About
-          </Link>
-          <Link to="menu" smooth={true}>
-            Menu
-          </Link>
-          <Link to="contact" smooth={true}>
-            Contact
-          </Link>
+          <Link to="home">Home</Link>
+          <Link to="about">About</Link>
+          <Link to="menu">Menu</Link>
+          <Link to="contact">Contact</Link>
         </div>
         <button onClick={toggleNavbar}>
           <FiMenu />
