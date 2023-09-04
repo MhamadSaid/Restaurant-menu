@@ -13,6 +13,9 @@
   font-size: 60px;
 }
 
+.menu h1 {
+  margin-top: 50px;
+}
 .menuList {
   width: 70vw;
   height: auto;
@@ -56,6 +59,12 @@
 }
 .menuItem p {
   margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
