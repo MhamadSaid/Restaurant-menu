@@ -26,7 +26,9 @@
   margin-left: 30px;
   color: #a52a2a;
 }
-
+.contact h1 {
+  margin-top: 100px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -59,4 +61,13 @@ form button {
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 350px;
+  }
+  .rightSide {
+    margin-left: 0;
+  }
 }
