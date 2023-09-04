@@ -10,6 +10,10 @@
   top: 0;
 }
 
+.hiddenLinks {
+  display: none;
+}
+
 .navbar .leftSide {
   display: flex;
   flex: 50%;
@@ -93,7 +97,6 @@
   .navbar .rightSide button {
     display: none;
   }
-
   .hiddenLinks {
     display: none;
   }
