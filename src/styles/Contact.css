@@ -71,10 +71,13 @@ form button {
     margin-left: 0;
   }
   form {
-    padding: 5px;
+    padding: 10px;
   }
   form button {
-    margin: 17px;
+    margin: 20px;
     margin-bottom: 40px;
+  }
+  .contact .rightSide h1 {
+    margin-left: 10px;
   }
 }
