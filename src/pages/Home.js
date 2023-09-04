@@ -7,7 +7,7 @@ function Home() {
   return (
     <div
       className="home"
-      id="Home"
+      id="/"
       style={{ backgroundImage: `url(${BannerImage})` }}
     >
       <div className="headerContainer">
