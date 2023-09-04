@@ -70,4 +70,11 @@ form button {
   .rightSide {
     margin-left: 0;
   }
+  form {
+    padding: 5px;
+  }
+  form button {
+    margin: 17px;
+    margin-bottom: 40px;
+  }
 }
