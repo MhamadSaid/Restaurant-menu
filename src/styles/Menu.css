@@ -1,5 +1,5 @@
 .menu {
-  background-color: #fbdd58;
+  background-color: #f2cf8e;
   width: 100%;
   height: auto;
   display: flex;
@@ -32,10 +32,9 @@
   height: 350px;
   margin: 20px;
   background-color: white;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
 }
 .menuItem:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -51,11 +50,11 @@
 }
 
 .menuTitle {
-  color: #a52a2a;
+  color: #ca1e06;
 }
 
 .menuItem h1 {
-  color: #a52a2a;
+  color: #ca1e06;
 }
 .menuItem p {
   margin-left: 20px;
