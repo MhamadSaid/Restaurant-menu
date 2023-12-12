@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import Image from "../assets/multiplePizzas.jpeg";
+import Image from "../assets/about.jpeg";
 
 function About() {
   return (
