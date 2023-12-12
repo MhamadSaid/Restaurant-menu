@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
-import Logo from "../assets/pizzaLogo.png";
+import Logo from "../assets/logo.png";
 import "../styles/Navbar.css";
 
 function Navbar() {
