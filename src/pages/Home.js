@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/pizza.jpeg";
+import BannerImage from "../assets/pizza23.jpg";
 import "../styles/Home.css";
 
 function Home() {
@@ -13,9 +13,9 @@ function Home() {
       <div className="headerContainer">
         <div>
           <h1> Pizza Joy </h1>
-          <p>Pizzas to Delight Every Palate</p>
+          <p>Pizzas for All Tastes</p>
           <Link to="/menu">
-            <button> ORDER NOW </button>
+            <button> View Menu</button>
           </Link>
         </div>
       </div>
