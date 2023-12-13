@@ -53,18 +53,39 @@ form label {
   margin-top: 15px;
 }
 
-form button {
-  margin-top: 40px;
-  width: 140px;
-  height: 40px;
-  border: none;
-  background-color: #ca1e06;
-  color: whitesmoke;
-  font-size: 15px;
-  cursor: pointer;
-  border-radius: 2px;
+.bn31 {
+  background-image: linear-gradient(45deg, #dc5245, #e52222);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #e52222;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
 }
 
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
 @media (max-width: 768px) {
   h1 {
     margin-top: 350px;
