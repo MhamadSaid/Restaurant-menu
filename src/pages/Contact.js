@@ -23,7 +23,9 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <button type="submit"> Send Message</button>
+          <a class="bn31" href="/">
+            <span class="bn31span">Button</span>
+          </a>
         </form>
       </div>
     </div>
