@@ -1,9 +1,9 @@
 import Pepperoni from "../assets/pepperoni.jpg";
 import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
+import Special from "../assets/special.jpg";
 import Vegan from "../assets/vegan.jpg";
 import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import Vegeterian from "../assets/vegeterian.jpg";
 
 export const MenuList = [
   {
@@ -18,8 +18,8 @@ export const MenuList = [
   },
   {
     name: "Special Pizza",
-    image: PedroTechSpecial,
-    price: 256.53,
+    image: Special,
+    price: 56.53,
   },
   {
     name: "Vegan Pizza",
@@ -32,8 +32,8 @@ export const MenuList = [
     price: 4.99,
   },
   {
-    name: "Expensive Pizza",
-    image: Expensive,
-    price: 1997.99,
+    name: "Vegeterian Pizza",
+    image: Vegeterian,
+    price: 20.99,
   },
 ];
