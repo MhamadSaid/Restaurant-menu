@@ -2,7 +2,7 @@
   display: flex;
   position: fixed;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #ca1e06;
+  background-image: linear-gradient(-45deg, #b32c20, #e52222);
   align-items: center;
   width: 100%;
   height: 70px;
@@ -69,7 +69,7 @@
   width: 70px;
   margin: 5px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 650px) {
   .navbar .rightSide a {
     width: 70px;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .navbar .rightSide a {
     display: none;
   }
@@ -93,7 +93,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 650px) {
   .navbar .rightSide button {
     display: none;
   }
