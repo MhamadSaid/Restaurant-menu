@@ -44,9 +44,9 @@ function Navbar() {
           <Link to="menu">Menu</Link>
           <Link to="contact">Contact</Link>
         </div>
-        <button onClick={toggleNavbar}>
-          <FiMenu />
-        </button>
+        <div className="icon">
+          <FiMenu onClick={toggleNavbar} />
+        </div>
       </div>
     </div>
   );
