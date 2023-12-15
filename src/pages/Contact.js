@@ -23,11 +23,7 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <div className="ConactButton">
-            <button href="/">
-              <span class="text">SUBMIT</span>
-            </button>
-          </div>
+          <button className="btn btnc">Submit</button>
         </form>
       </div>
     </div>
