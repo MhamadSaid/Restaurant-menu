@@ -15,7 +15,7 @@ function Home() {
           <h1> Pizza Joy </h1>
           <p className="title">Pizzas for All Tastes</p>
           <Link to="/menu">
-            <button> View Menu</button>
+            <button className="btn"> View Menu</button>
           </Link>
         </div>
       </div>
