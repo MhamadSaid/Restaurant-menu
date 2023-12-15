@@ -5,7 +5,7 @@ import Image from "../assets/about.jpeg";
 function About() {
   return (
     <section className="about-section">
-      <h1>ABOUT US</h1>
+      <h1 className="title">ABOUT US</h1>
       <div className="about">
         <div className="aboutLeft">
           <img src={Image} alt="" />
