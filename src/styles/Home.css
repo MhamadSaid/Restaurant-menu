@@ -1,3 +1,15 @@
+:root {
+  --title-gradient: linear-gradient(45deg, #dc2919, #3d2c2c);
+  --text-color: transparent;
+}
+.title {
+  background-image: var(--title-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--text-color);
+  -webkit-text-fill-color: var(--text-color);
+}
+
 .home {
   width: 100%;
   height: 90vh;

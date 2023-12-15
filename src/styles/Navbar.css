@@ -1,13 +1,14 @@
 .navbar {
   display: flex;
   position: fixed;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: cursive;
   background-image: linear-gradient(-45deg, #b32c20, #e52222);
   align-items: center;
   width: 100%;
   height: 70px;
   z-index: 10;
   top: 0;
+  left: 0;
 }
 
 .hiddenLinks {
