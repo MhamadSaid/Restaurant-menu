@@ -22,7 +22,7 @@
 }
 
 .navbar .leftSide img {
-  width: 60px;
+  width: 80px;
 }
 
 .navbar .rightSide {
@@ -42,7 +42,7 @@
   font-size: 20px;
 }
 
-.navbar .rightSide button {
+.icon {
   background-color: transparent;
   font-size: 40px;
   border: none;
@@ -95,7 +95,7 @@
 }
 
 @media only screen and (min-width: 650px) {
-  .navbar .rightSide button {
+  .navbar .rightSide .icon {
     display: none;
   }
   .hiddenLinks {
